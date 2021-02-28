@@ -1,9 +1,10 @@
 {
-  "extends": [
-    "standard"
-  ],
-  "parser": "@typescript-eslint/parser",
-  "plugins": [
-    "@typescript-eslint"
-  ]
+    "extends": [
+        "standard",
+        "eslint:recommended",
+        "prettier",
+        "prettier/@typescript-eslint"
+    ],
+    "parser": "@typescript-eslint/parser",
+    "plugins": ["@typescript-eslint"]
 }

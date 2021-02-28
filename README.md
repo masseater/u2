@@ -1,8 +1,8 @@
 # TypeScript x Commando テンプレート
 
-- [ドキュメント](https://discord.js.org/#/docs/commando/master/general/welcome)
-- [レポジトリ](https://github.com/discordjs/Commando)
-- [NPM](https://www.npmjs.com/package/discord.js-commando)
+-   [ドキュメント](https://discord.js.org/#/docs/commando/master/general/welcome)
+-   [レポジトリ](https://github.com/discordjs/Commando)
+-   [NPM](https://www.npmjs.com/package/discord.js-commando)
 
 ## インストール
 
