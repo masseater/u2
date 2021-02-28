@@ -2,9 +2,20 @@
     "extends": [
         "standard",
         "eslint:recommended",
-        "prettier",
+        "plugin:prettier/recommended",
         "prettier/@typescript-eslint"
     ],
     "parser": "@typescript-eslint/parser",
-    "plugins": ["@typescript-eslint"]
+    "plugins": ["@typescript-eslint", "import", "unused-imports"],
+    "rules": {
+        "@typescript-eslint/no-unused-vars": "off",
+        "unused-imports/no-unused-imports-ts": "warn",
+        "import/order": {
+            "warn": true,
+            "groups": ["buildin", "external", "internal"],
+            "alphabetize": {
+                "order": "asc"
+            }
+        }
+    }
 }
